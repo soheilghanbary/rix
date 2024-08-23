@@ -1,0 +1,17 @@
+{
+  "name": "rix",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "turbo": "^2.0.14"
+  }
+}
