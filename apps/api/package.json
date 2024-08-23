@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
+    "dev": "vite",
+    "start": "vite",
+    "build": "prisma generate && vite",
     "lint": "biome format --write .",
     "db:push": "prisma db push",
     "db:gen": "prisma generate",
@@ -24,6 +26,6 @@
     "vite": "^5.4.0"
   },
   "prisma": {
-    "schema": "server/db/schema.prisma"
+    "schema": "src/db/schema.prisma"
   }
 }
